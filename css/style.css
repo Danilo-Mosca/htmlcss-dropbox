@@ -1,6 +1,6 @@
 /* Palette colori */
 :root {
-    --color-jumbo: #B4D0e7;
+    --color-light-blue: #B4D0e7;
     --color-blue: #0061FF;
     --color-dark: #0E0E0E;
     --color-gray: #F5F5F5;
@@ -30,6 +30,8 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: var(--color-white);
+    color: var(--color-dark);
 }
 
 /* Utilities */
@@ -48,4 +50,14 @@ body {
 .container-small {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+/* Colori di sfondo */
+.bgcol-light-blue {
+    background-color: var(--color-light-blue);
+}
+
+footer {
+    background-color: var(--color-dark);
+    color: var(--color-white);
 }
