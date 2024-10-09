@@ -1,0 +1,31 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Configurazioni generali */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Utilities */
+
+/* Classe debug per posizionamenti */
+.debug {
+    border: 1px solid red;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-small {
+    margin: 0 auto;
+    max-width: 1000px;
+}
