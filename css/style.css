@@ -1,3 +1,21 @@
+/* Palette colori */
+:root {
+    --color-jumbo: #B4D0e7;
+    --color-blue: #0061FF;
+    --color-dark: #0E0E0E;
+    --color-gray: #F5F5F5;
+    --color-text-cta: #753F63;
+    --color-white: #FFFFFF;
+    --color-logo-green: #A2D39B;
+    --color-logo-garnet: #61082B;
+    --color-logo-blue: #0093CE;
+    --color-logo-light-red: #FF1C1C;
+    --color-logo-red: #D5001F;
+    --color-logo-light-blue: #B4D0e7;
+    --color-logo-dark-blue: #0D2481;
+    --color-logo-yellow: #FFD839;
+}
+
 /* Reset */
 * {
     margin: 0px;
@@ -9,6 +27,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -25,6 +44,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
+
 .container-small {
     margin: 0 auto;
     max-width: 1000px;
