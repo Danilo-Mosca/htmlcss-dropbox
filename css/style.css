@@ -43,11 +43,16 @@ h1 {
     font-size: 4em;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 /* MI CREO LA CLASSE PER LE IMMAGINI FLUIDE */
 img {
     width: 100%;
     display: block;
 }
+
 /* ----------------------------------------- */
 
 /* Utilities */
@@ -78,8 +83,19 @@ img {
     display: flex;
 }
 
+.flex-start {
+    justify-content: flex-start;
+}
+
 .space-between {
     justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.align-items-stretch {
+    align-items: stretch;
 }
 
 /* Spaziature (padding e margin) e bordi */
@@ -96,6 +112,18 @@ img {
     text-decoration: none;
     color: var(--color-dark);
     font-weight: 500;
+}
+
+/* Imposto un margine dalla sezione superiore */
+#plans {
+    margin-top: 150px;
+}
+
+.billing > h2 {
+    margin-bottom: 50px;
+}
+.billing-select {
+    column-gap: 50px;
 }
 
 /* Faccio comparire il bordo in basso all'hover del mouse e gli do anche
@@ -161,6 +189,11 @@ footer {
     color: var(--color-white);
 }
 
-#plans {
-    margin-top: 150px;
+/* Personalizzazione Icone Font Awesome */
+.fa-circle-dot {
+    color: var(--color-blue);
+}
+
+.fa-circle {
+    color: grey;
 }
