@@ -4,7 +4,7 @@
     --color-blue: #0061FF;
     --color-button-dark-blue: #044FCA;
     --color-dark: #0E0E0E;
-    --color-gray: #F5F5F5;
+    --color-gray: #A9A9B1;
     --color-text-cta: #753F63;
     --color-white: #FFFFFF;
     --color-logo-green: #A2D39B;
@@ -37,6 +37,7 @@ body {
 
 ul {
     list-style: none;
+    list-style-position: outside;
 }
 
 h1 {
@@ -45,6 +46,10 @@ h1 {
 
 h2 {
     font-size: 3em;
+}
+
+h3 {
+    font-size: 1.8em;
 }
 
 /* MI CREO LA CLASSE PER LE IMMAGINI FLUIDE */
@@ -57,9 +62,9 @@ img {
 
 /* Utilities */
 /* Classe debug per posizionamenti */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 /* Container */
 .container {
@@ -94,6 +99,7 @@ img {
 .align-items-center {
     align-items: center;
 }
+
 .align-items-stretch {
     align-items: stretch;
 }
@@ -119,9 +125,10 @@ img {
     margin-top: 150px;
 }
 
-.billing > h2 {
+.billing>h2 {
     margin-bottom: 50px;
 }
+
 .billing-select {
     column-gap: 50px;
 }
@@ -162,6 +169,7 @@ button {
     font-weight: 500;
     border: none;
     box-shadow: 0px 1px 8px var(--color-logo-dark-blue);
+    cursor: pointer;
 }
 
 button:hover {
@@ -170,6 +178,8 @@ button:hover {
 }
 
 /* Sezioni della pagina */
+
+/* Header */
 header {
     position: fixed;
     top: 0;
@@ -180,6 +190,7 @@ header {
     box-shadow: 0px 1px 8px var(--color-dark);
 }
 
+/* Jumbotron */
 #jumbotron {
     padding-top: 150px;
 }
@@ -189,11 +200,73 @@ footer {
     color: var(--color-white);
 }
 
+/* Plans */
+.single-plan {
+    margin: 50px 0;
+}
+
+.plans-type {
+    /* padding: 15px 30px; */
+    border: 1px solid var(--color-gray);
+    width: calc((100% - 90px) / 3);
+}
+
+.top-plans-type {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+/* Imposto una spaziatura e una line-height per tutti
+container presenti in single-plan */
+.title-plans-type,
+.users-plan,
+.button-plans,
+.bottom-plans {
+    padding: 20px 28px;
+    line-height: 35px;
+}
+/* Imposto questo container con un'altezza fissa per tenere allineati
+orizzontalmente i pulsanti (container "button-plans") di tutte e tre 
+le colonne anche nel caso di testi più o meno lunghi */
+.users-plan {
+    height: 300px;
+}
+
+/* Allineo il pulsante al centro e gli do un pò
+   di spaziatura in basso */
+.button-plans button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.line-empty-plans {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    color: var(--color-gray);
+}
+
+/* Testo in grigio /utente/mese */
+.title-plans-type ul li:last-child {
+    color: var(--color-gray);
+}
+
 /* Personalizzazione Icone Font Awesome */
 .fa-circle-dot {
     color: var(--color-blue);
 }
 
 .fa-circle {
-    color: grey;
+    color: var(--color-gray);
 }
+.fa-check {
+    color: var(--color-blue);
+}
+/* Fime personalizzazione Icone Font Awesome */
+
+/* Provare ad assegnare una classe per tutte le list item */
+/* ul li.linea {
+    line-height: 1;
+} */
