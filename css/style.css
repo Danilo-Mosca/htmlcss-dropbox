@@ -39,6 +39,17 @@ ul {
     list-style: none;
 }
 
+h1 {
+    font-size: 4em;
+}
+
+/* MI CREO LA CLASSE PER LE IMMAGINI FLUIDE */
+img {
+    width: 100%;
+    display: block;
+}
+/* ----------------------------------------- */
+
 /* Utilities */
 /* Classe debug per posizionamenti */
 .debug {
@@ -49,11 +60,17 @@ ul {
 .container {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 25px;
 }
 
 .container-small {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+#jumbotron .container {
+    position: relative;
+    top: 80px;
 }
 
 /* Flexbox utilizzate */
@@ -94,6 +111,15 @@ uno spessore maggiore. L'hover lo imposto anche per il pulsante */
     text-decoration-color: var(--color-dark);
 }
 
+/* Dimensioni container */
+.width-30 {
+    width: 30%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
 /* Colori di sfondo */
 .bgcol-light-blue {
     background-color: var(--color-light-blue);
@@ -107,6 +133,7 @@ button {
     font-size: 16px;
     font-weight: 500;
     border: none;
+    box-shadow: 0px 1px 8px var(--color-logo-dark-blue);
 }
 
 button:hover {
@@ -120,6 +147,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
     background-color: var(--color-white);
     box-shadow: 0px 1px 8px var(--color-dark);
 }
@@ -131,4 +159,8 @@ header {
 footer {
     background-color: var(--color-dark);
     color: var(--color-white);
+}
+
+#plans {
+    margin-top: 150px;
 }
