@@ -73,9 +73,9 @@ img {
 
 /* Utilities */
 /* Classe debug per posizionamenti */
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 /* Container */
 .container {
@@ -486,6 +486,11 @@ bene testo e scritta */
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+}
+
+.logo-img {
+    /* fill: var(--color-white); */
     width: 50%;
 }
 
