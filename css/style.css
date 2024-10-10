@@ -106,9 +106,11 @@ img {
 .display-flex {
     display: flex;
 }
+
 .flex-direction-column {
     flex-direction: column;
 }
+
 .flex-start {
     justify-content: flex-start;
 }
@@ -178,6 +180,7 @@ img {
 .partners-text {
     padding: 40px;
 }
+
 .partners-text div {
     padding-bottom: 40px;
 }
@@ -188,6 +191,7 @@ img {
 .business-title {
     padding-bottom: 50px;
 }
+
 .business-content-padding-20 {
     padding-bottom: 20px;
 }
@@ -377,10 +381,10 @@ le colonne anche nel caso di testi più o meno lunghi */
 }
 
 /* Sezione team-business */
-
 .team-business {
     flex-direction: column;
 }
+
 .team-business-content {
     width: 65%;
     padding-bottom: 50px;
