@@ -428,39 +428,74 @@ bene testo e scritta */
 
 .bgcolor-logo-1 {
     background-color: var(--color-logo-green);
-    background-image: url('../img/designit.svg');
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 50%;
-    background-repeat: no-repeat;
 }
 
 .bgcolor-logo-2 {
     background-color: var(--color-logo-garnet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .bgcolor-logo-3 {
     background-color: var(--color-logo-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .bgcolor-logo-4 {
     background-color: var(--color-logo-light-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .bgcolor-logo-5 {
     background-color: var(--color-logo-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .bgcolor-logo-6 {
     background-color: var(--color-logo-light-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .bgcolor-logo-7 {
     background-color: var(--color-logo-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .bgcolor-logo-8 {
     background-color: var(--color-logo-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .center {
