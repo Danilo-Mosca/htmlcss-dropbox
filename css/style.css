@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 h5 {
@@ -163,12 +163,23 @@ img {
     margin: 30px 0;
 }
 
+/* Spaziature custom-plans */
 .text-custom-plan {
     padding-bottom: 50px;
 }
+
 .text-custom-plan h3 {
     padding-bottom: 10px;
 }
+
+/* Spaziature partners */
+.partners-text {
+    padding: 40px;
+}
+.partners-text div {
+    padding-bottom: 40px;
+}
+
 /* Imposto un margine dalla sezione superiore */
 #plans {
     margin-top: 150px;
@@ -231,7 +242,21 @@ button {
 
 button:hover {
     background-color: var(--color-button-dark-blue);
-    font-weight: 530;
+    opacity: 0.8;
+}
+
+.a-custom-button {
+    padding: 10px 25px;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    border: 2px solid var(--color-dark);
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+.a-custom-button:hover {
+    font-weight: 600;
 }
 
 /* Sezioni della pagina */
@@ -319,6 +344,7 @@ le colonne anche nel caso di testi più o meno lunghi */
     text-align: center;
     padding: 10px 0;
 }
+
 .custom-contact div p {
     font-weight: 700;
 }
@@ -437,6 +463,7 @@ alle dimensioni diverse dei vari dispositivi */
     gap: 10px;
     padding: 50px 0px 35px;
 }
+
 .select-language {
     font-size: 16px;
 }
