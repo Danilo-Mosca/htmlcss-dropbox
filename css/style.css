@@ -60,6 +60,10 @@ img {
     display: block;
 }
 
+hr {
+    width: 20%;
+}
+
 /* ----------------------------------------- */
 
 /* Utilities */
@@ -231,8 +235,15 @@ footer {
 }
 
 /* Plans */
+
+
 .single-plan {
     margin: 50px 0;
+}
+
+/* Distanzio le varie section */
+.margin-section {
+    margin-bottom: 150px;
 }
 
 .plans-type {
@@ -280,17 +291,25 @@ le colonne anche nel caso di testi più o meno lunghi */
     color: var(--color-gray);
 }
 
+
 /* Testo in grigio /utente/mese */
 .title-plans-type ul li:last-child {
     color: var(--color-gray);
 }
 
-/* Business */
+/* Sezione Business */
 .row-business {
     gap: 45px;
 }
+
 .business-column {
-    width: calc((100% - 90px) / 3 );
+    width: calc((100% - 90px) / 3);
+}
+
+/* Sezione team-business */
+.team-business-content {
+    padding-right: 130px;
+    padding-bottom: 50px;
 }
 
 
@@ -314,5 +333,4 @@ le colonne anche nel caso di testi più o meno lunghi */
 .fa-check {
     color: var(--color-blue);
 }
-
-/* Fime personalizzazione Icone Font Awesome */
+/* Fine personalizzazione Icone Font Awesome */

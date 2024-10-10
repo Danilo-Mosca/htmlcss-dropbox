@@ -16,7 +16,7 @@
 <body>
     <!-- Header -->
     <header class="padding-20 debug">
-        <nav class="display-flex space-between debug">
+        <nav class="display-flex space-between flex-wrap debug">
             <ul class="header-menu display-flex debug">
                 <li><a href=""><img src="img/logo-small.png" alt="Logo Discord"></a></li>
                 <li><a href="">Perchè Dropbox</a></li>
@@ -57,9 +57,19 @@
             </div>
         </section>
 
-        <section id="plans" class="debug">
+        <section id="plans" class="margin-section debug">
             <div class="billing container-small debug">
                 <h2>Trova il piano business che fa per te</h2>
+
+                <!-- Da personalizzare dopo
+                <div>
+                    <input type="radio" name="mensile" id="mensile" checked>
+                    <label for="mensile">Fatturazione mensile</label>
+                    <input type="radio" name="annuale" id="annuale">
+                    <label for="annuale"></label>Fatturazione annuale</label>
+                </div> -->
+
+
                 <div class="billing-select display-flex flex-start align-items-center">
                     <span><i class="fa-solid fa-circle-dot"></i>&nbsp;Fatturazione mensile</span>
                     <span><i class="fa-regular fa-circle"></i>&nbsp;Fatturazione annuale</span>
@@ -92,7 +102,7 @@
                             <p>Oppure&nbsp;<a href="#">acquista ora</a></p>
                         </div>
                         <div class="line-empty-plans">
-                            <span>________</span>
+                            <hr>
                         </div>
                         <div class="bottom-plans">
                             <h4>Punti Salienti del piano</h4>
@@ -202,7 +212,7 @@
                 </div>
             </div>
         </section>
-        <section id="partners" class="container-small display-flex debug">
+        <section id="partners" class="container-small margin-section display-flex debug">
             <div class="partners-image width-60 debug">
                 Image
             </div>
@@ -210,78 +220,86 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dignissimos!
             </div>
         </section>
-        
-        <section id="business" class="container-small debug">
+
+        <section id="business" class="container-small margin-section debug">
             <div class="business-title debug">
-                <h2>Titolo business</h2></div>
-                <div class="row-business display-flex  space-between flex-wrap debug">
-                    <div class="business-column debug">
-                        <div class="business-content debug">
-                            <!-- <img src="img/business-feature-switching-tools.png" alt="Switching tools"> -->
-                            <h3>Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
-                                odio vero.</p>
-                        </div>
+                <h2>Titolo business</h2>
+            </div>
+            <div class="row-business display-flex  space-between flex-wrap debug">
+                <div class="business-column debug">
+                    <div class="business-content debug">
+                        <img src="img/business-feature-switching-tools.png" alt="Switching tools">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
+                            odio vero.</p>
                     </div>
-                    <div class="business-column debug">
-                        <div class="business-content debug">
-                            <!-- <img src="img/business-feature-switching-tools.png" alt="Switching tools"> -->
-                            <h3>Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
-                                odio vero.</p>
-                        </div>
+                </div>
+                <div class="business-column debug">
+                    <div class="business-content debug">
+                        <img src="img/business-feature-switching-tools.png" alt="Switching tools">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
+                            odio vero.</p>
                     </div>
-                    <div class="business-column debug">
-                        <div class="business-content debug">
-                            <!-- <img src="img/business-feature-switching-tools.png" alt="Switching tools"> -->
-                            <h3>Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
-                                odio vero.</p>
-                        </div>
+                </div>
+                <div class="business-column debug">
+                    <div class="business-content debug">
+                        <img src="img/business-feature-switching-tools.png" alt="Switching tools">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
+                            odio vero.</p>
                     </div>
-                    <div class="business-column debug">
-                        <div class="business-content debug">
-                            <!-- <img src="img/business-feature-switching-tools.png" alt="Switching tools"> -->
-                            <h3>Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
-                                odio vero.</p>
-                        </div>
+                </div>
+                <div class="business-column debug">
+                    <div class="business-content debug">
+                        <img src="img/business-feature-switching-tools.png" alt="Switching tools">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
+                            odio vero.</p>
                     </div>
-                    <div class="business-column debug">
-                        <div class="business-content debug">
-                            <!-- <img src="img/business-feature-switching-tools.png" alt="Switching tools"> -->
-                            <h3>Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
-                                odio vero.</p>
-                        </div>
+                </div>
+                <div class="business-column debug">
+                    <div class="business-content debug">
+                        <img src="img/business-feature-switching-tools.png" alt="Switching tools">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
+                            odio vero.</p>
                     </div>
-                    <div class="business-column debug">
-                        <div class="business-content debug">
-                            <!-- <img src="img/business-feature-switching-tools.png" alt="Switching tools"> -->
-                            <h3>Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
-                                odio vero.</p>
-                        </div>
+                </div>
+                <div class="business-column debug">
+                    <div class="business-content debug">
+                        <img src="img/business-feature-switching-tools.png" alt="Switching tools">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi sunt nobis non
+                            odio vero.</p>
                     </div>
-
-
                 </div>
 
 
+            </div>
+
+
 
         </section>
-        <section id="team-business" class="container-small debug">
-            Team business
+        <section id="team-business" class="container-small margin-section debug">
+            <div class="team-business display-flex flex-wrap flex-start debug">
+                <div class="team-business-content debug">
+                    <h2>Più di 500.000 team utilizzano Dropbox</h2>
+                </div>
+                <div class="team-business-link debug">
+                    <a href="#">Scopri di più sui nostri clienti</a>
+                </div>
+            </div>
         </section>
-        <section id="customers" class="debug">
+        <section id="customers" class="margin-section debug">
             Loghi e Customers
         </section>
-        <section id="call-to-action" class="bgcol-light-blue debug">
+        <section id="call-to-action" class="bgcol-light-blue margin-section debug">
             <div class="container-small debug">
                 Call to action
             </div>
         </section>
-        <section id="faq" class="debug">
+        <section id="faq" class="margin-section debug">
             <div class="container-small debug">
                 Faq
             </div>
