@@ -163,6 +163,12 @@ img {
     margin: 30px 0;
 }
 
+.text-custom-plan {
+    padding-bottom: 50px;
+}
+.text-custom-plan h3 {
+    padding-bottom: 10px;
+}
 /* Imposto un margine dalla sezione superiore */
 #plans {
     margin-top: 150px;
@@ -308,6 +314,14 @@ le colonne anche nel caso di testi più o meno lunghi */
     color: var(--color-gray);
 }
 
+/* Sezione custom-plan */
+.custom-team {
+    text-align: center;
+    padding: 10px 0;
+}
+.custom-contact div p {
+    font-weight: 700;
+}
 
 /* Testo in grigio /utente/mese */
 .title-plans-type ul li:last-child {
@@ -343,9 +357,12 @@ le colonne anche nel caso di testi più o meno lunghi */
 
 .bgcolor-logo-1 {
     background-color: var(--color-logo-green);
+    background-image: url('../img/designit.svg');
+    display: block;
+    background-repeat: no-repeat;
 }
 
-.bgcolor-logo-1 {
+.bgcolor-logo-2 {
     background-color: var(--color-logo-garnet);
 }
 
@@ -429,7 +446,7 @@ alle dimensioni diverse dei vari dispositivi */
 /* Personalizzazione Icone Font Awesome */
 .fa-arrow-down {
     color: var(--color-dark);
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .fa-circle-dot {
