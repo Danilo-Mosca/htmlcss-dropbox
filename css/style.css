@@ -15,6 +15,7 @@
     --color-logo-light-blue: #B4D0e7;
     --color-logo-dark-blue: #0D2481;
     --color-logo-yellow: #FFD839;
+    --user-plain-height: 300px;
 }
 
 /* Reset */
@@ -41,7 +42,8 @@ ul {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4.6em;
+    font-weight: 900;
 }
 
 h2 {
@@ -62,9 +64,9 @@ img {
 
 /* Utilities */
 /* Classe debug per posizionamenti */
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 /* Container */
 .container {
@@ -78,9 +80,17 @@ img {
     max-width: 1000px;
 }
 
+/* Imposto il container in jumbotron a relative
+   per far scendere di 80px il contenuto di
+   jumbo-text e jumbo-image   */
 #jumbotron .container {
     position: relative;
     top: 80px;
+}
+
+/* Distanzio l'h1 dal paragrafo e dall'immagine successiva */
+#jumbotron .container h1 {
+    margin-bottom: 70px;
 }
 
 /* Flexbox utilizzate */
@@ -96,6 +106,10 @@ img {
     justify-content: space-between;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -104,7 +118,11 @@ img {
     align-items: stretch;
 }
 
-/* Spaziature (padding e margin) e bordi */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* Altre spaziature (padding e margin) e bordi */
 .padding-20 {
     padding: 26px;
 }
@@ -118,6 +136,10 @@ img {
     text-decoration: none;
     color: var(--color-dark);
     font-weight: 500;
+}
+
+.jumbo-text a button {
+    margin: 30px 0;
 }
 
 /* Imposto un margine dalla sezione superiore */
@@ -149,6 +171,14 @@ uno spessore maggiore. L'hover lo imposto anche per il pulsante */
 /* Dimensioni container */
 .width-30 {
     width: 30%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-60 {
+    width: 60%;
 }
 
 .width-70 {
@@ -192,7 +222,7 @@ header {
 
 /* Jumbotron */
 #jumbotron {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 footer {
@@ -227,11 +257,13 @@ container presenti in single-plan */
     padding: 20px 28px;
     line-height: 35px;
 }
+
 /* Imposto questo container con un'altezza fissa per tenere allineati
 orizzontalmente i pulsanti (container "button-plans") di tutte e tre 
 le colonne anche nel caso di testi più o meno lunghi */
 .users-plan {
-    height: 300px;
+    height: var(--user-plain-height);
+    min-width: 300px;
 }
 
 /* Allineo il pulsante al centro e gli do un pò
@@ -253,7 +285,24 @@ le colonne anche nel caso di testi più o meno lunghi */
     color: var(--color-gray);
 }
 
+/* Business */
+.row-business {
+    gap: 45px;
+}
+.business-column {
+    width: calc((100% - 90px) / 3 );
+}
+
+
+
+
+
 /* Personalizzazione Icone Font Awesome */
+.fa-arrow-down {
+    color: var(--color-dark);
+    margin-top: 80px;
+}
+
 .fa-circle-dot {
     color: var(--color-blue);
 }
@@ -261,12 +310,9 @@ le colonne anche nel caso di testi più o meno lunghi */
 .fa-circle {
     color: var(--color-gray);
 }
+
 .fa-check {
     color: var(--color-blue);
 }
-/* Fime personalizzazione Icone Font Awesome */
 
-/* Provare ad assegnare una classe per tutte le list item */
-/* ul li.linea {
-    line-height: 1;
-} */
+/* Fime personalizzazione Icone Font Awesome */
