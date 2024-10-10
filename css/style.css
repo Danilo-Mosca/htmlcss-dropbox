@@ -119,6 +119,10 @@ img {
     justify-content: space-between;
 }
 
+.space-center {
+    justify-content: center;
+}
+
 .space-around {
     justify-content: space-around;
 }
@@ -404,11 +408,12 @@ le colonne anche nel caso di testi più o meno lunghi */
 .cta div {
     padding: 50px;
 }
+
 /* Imposto un pò di margine al top per allineare
 bene testo e scritta */
 .cta div .a-custom-button {
     margin-top: 10px;
-} 
+}
 
 /* Sezione customers "Loghi" */
 .customers-brand>div {
@@ -425,6 +430,8 @@ bene testo e scritta */
     background-color: var(--color-logo-green);
     background-image: url('../img/designit.svg');
     display: block;
+    width: 50%;
+    height: 50%;
     background-repeat: no-repeat;
 }
 
