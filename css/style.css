@@ -180,6 +180,14 @@ img {
     padding-bottom: 10px;
 }
 
+/* Aggiungo i bordi al titolo e ai contenuti */
+.custom-team {
+    border: 1px solid var(--color-gray);
+}
+.custom-contact {
+    border: 1px solid var(--color-gray);
+}
+
 /* Spaziature partners */
 .partners-text {
     padding: 40px;
