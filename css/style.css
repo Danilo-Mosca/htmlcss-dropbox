@@ -15,7 +15,7 @@
     --color-logo-light-blue: #B4D0e7;
     --color-logo-dark-blue: #0D2481;
     --color-logo-yellow: #FFD839;
-    --color-logo-center: #F5F5F5;   
+    --color-logo-center: #F5F5F5;
     --user-plain-height: 300px;
 }
 
@@ -55,14 +55,18 @@ h3 {
     font-size: 1.8em;
 }
 
-/* MI CREO LA CLASSE PER LE IMMAGINI FLUIDE */
-img {
-    width: 100%;
-    display: block;
+h5 {
+    font-size: 1.5em;
 }
 
 hr {
     width: 20%;
+}
+
+/* MI CREO LA CLASSE PER LE IMMAGINI FLUIDE */
+img {
+    width: 100%;
+    display: block;
 }
 
 /* ----------------------------------------- */
@@ -115,6 +119,10 @@ hr {
     justify-content: space-around;
 }
 
+.align-items-baseline {
+    align-items: baseline;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -134,6 +142,10 @@ hr {
 
 .padding-50 {
     padding: 50px;
+}
+
+.padding-call-to-action {
+    padding: 120px 0;
 }
 
 .header-menu {
@@ -246,7 +258,7 @@ footer {
     margin: 50px 0;
 }
 
-/* Distanzio le varie section */
+/* Distanzio verticalmente le varie section */
 .margin-section {
     margin-bottom: 150px;
 }
@@ -352,21 +364,66 @@ le colonne anche nel caso di testi più o meno lunghi */
 .bgcolor-logo-6 {
     background-color: var(--color-logo-light-blue);
 }
+
 .bgcolor-logo-7 {
     background-color: var(--color-logo-dark-blue);
 }
+
 .bgcolor-logo-8 {
     background-color: var(--color-logo-yellow);
 }
+
 .center {
     background-color: var(--color-logo-center);
 }
+
 /* Imposto la comparsa automatica della barra 
 al testo centrale in caso di overflow dovuto
 alle dimensioni diverse dei vari dispositivi */
 .overflow-auto {
     overflow-y: auto;
 }
+
+/* Sezione Footer */
+.menu-footer li a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.menu-footer li a:hover {
+    text-decoration: underline;
+    color: var(--color-blue);
+}
+
+.menu-footer li h5 {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.menu-footer li a {
+    line-height: 2;
+}
+
+/* Imposto i colori del testo del footer bottom */
+.footer-bottom {
+    color: var(--color-gray);
+}
+
+/* Classe della form select per la scelta della lingua */
+.select-language {
+    background-color: var(--color-dark);
+    color: var(--color-gray);
+    border: none;
+}
+
+.language {
+    gap: 10px;
+    padding: 50px 0px 35px;
+}
+.select-language {
+    font-size: 16px;
+}
+
 
 
 /* Personalizzazione Icone Font Awesome */
