@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h3 {
@@ -179,6 +179,17 @@ img {
 .partners-text div {
     padding-bottom: 40px;
 }
+
+/* Spaziature sezione business */
+
+/* Spaziature sezione business-title */
+.business-title {
+    padding-bottom: 50px;
+}
+.business-content-padding-20 {
+    padding-bottom: 20px;
+}
+
 
 /* Imposto un margine dalla sezione superiore */
 #plans {
