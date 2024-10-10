@@ -73,9 +73,9 @@ img {
 
 /* Utilities */
 /* Classe debug per posizionamenti */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 /* Container */
 .container {
@@ -431,8 +431,6 @@ bene testo e scritta */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-2 {
@@ -441,7 +439,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-3 {
@@ -450,7 +447,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-4 {
@@ -459,7 +455,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-5 {
@@ -468,7 +463,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-6 {
@@ -477,7 +471,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-7 {
@@ -486,7 +479,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .bgcolor-logo-8 {
@@ -495,7 +487,6 @@ bene testo e scritta */
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .center {
