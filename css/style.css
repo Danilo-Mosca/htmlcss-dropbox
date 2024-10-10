@@ -106,7 +106,9 @@ img {
 .display-flex {
     display: flex;
 }
-
+.flex-direction-column {
+    flex-direction: column;
+}
 .flex-start {
     justify-content: flex-start;
 }
@@ -375,8 +377,12 @@ le colonne anche nel caso di testi più o meno lunghi */
 }
 
 /* Sezione team-business */
+
+.team-business {
+    flex-direction: column;
+}
 .team-business-content {
-    padding-right: 130px;
+    width: 65%;
     padding-bottom: 50px;
 }
 
