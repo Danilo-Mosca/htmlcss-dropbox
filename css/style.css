@@ -73,9 +73,9 @@ img {
 
 /* Utilities */
 /* Classe debug per posizionamenti */
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 /* Container */
 .container {
@@ -489,13 +489,23 @@ bene testo e scritta */
     width: 50%;
 }
 
+/* Riduco le dimensioni dei loghi del 50% rispetto al 
+suo contenitore "bgcolor-logo-x" */
 .logo-img {
     /* fill: var(--color-white); */
     width: 50%;
 }
 
+.center img,
+.center p {
+    padding: 30px 0;
+}
+/* Alla classe center non ho bisogno di dare un padding 
+in altezza perchè già le viene assegnato dalla classe
+".padding-50" quindi sovrascrivo l'istruzione di sopra
+solo per il padding-top */
 .center {
-    background-color: var(--color-logo-center);
+    padding-top: 0px;
 }
 
 /* Imposto la comparsa automatica della barra 
