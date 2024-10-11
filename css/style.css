@@ -17,6 +17,7 @@
     --color-logo-yellow: #FFD839;
     --color-logo-center: #F5F5F5;
     --user-plain-height: 300px;
+    --fa-li-margin: 23px;
 }
 
 /* Reset */
@@ -215,6 +216,10 @@ img {
     margin-top: 150px;
 }
 
+/* .users-plan .fa-li {
+    margin-left: 0px;
+} */
+
 .billing>h2 {
     margin-bottom: 50px;
 }
@@ -361,7 +366,6 @@ footer {
 }
 
 .plans-type {
-    /* padding: 15px 30px; */
     border: 1px solid var(--color-gray);
     width: calc((100% - 90px) / 3);
 }
@@ -601,7 +605,6 @@ alle dimensioni diverse dei vari dispositivi */
 .select-language {
     font-size: 16px;
 }
-
 
 
 /* Personalizzazione Icone Font Awesome */
