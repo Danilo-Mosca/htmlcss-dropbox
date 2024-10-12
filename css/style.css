@@ -74,9 +74,9 @@ img {
 
 /* Utilities */
 /* Classe debug per posizionamenti */
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 /* Container */
 .container {
@@ -456,6 +456,7 @@ le colonne anche nel caso di testi più o meno lunghi */
 
 .cta div {
     padding: 50px;
+    padding-left: 0;
 }
 
 /* Imposto un pò di margine al top per allineare
@@ -564,6 +565,43 @@ alle dimensioni diverse dei vari dispositivi */
 .overflow-auto {
     overflow-y: auto;
 }
+
+
+/* ---------Sezione Faq ----------------- */
+.faq-section div hr {
+    margin: 50px 0;
+    width: 100%;
+}
+
+.faq-title span {
+    padding-right: 40px;
+}
+
+/* Rendo invisibile il contenuto interno alle faq 
+ed anche la freccia su */
+.faq-hidden-content,
+.faq-title .fa-solid.fa-chevron-up {
+    display: none;
+}
+
+.faq-hidden-content p {
+    padding: 10px;
+}
+
+/* All'hover del mouse sul titolo della fa rendo visibile 
+il contenuto interno alle faq al passaggio del mouse 
+e rendo visibile anche l'icona freccia giù */
+.faq-title:hover .faq-hidden-content,
+.faq-title:hover .fa-solid.fa-chevron-up {
+    display: block;
+}
+
+/* Allo stesso tempo rendo invisibile l'icona freccia giù */
+.faq-title:hover .fa-solid.fa-chevron-down {
+    display: none;
+}
+
+/* ---------Fine Sezione Faq ----------------- */
 
 /* Sezione Footer */
 .menu-footer li a {
